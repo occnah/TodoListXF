@@ -1,0 +1,17 @@
+C:\Users\ossia\source\repos\TodoList_XF\TodoList_XF\TodoList_XF\bin\Debug\netstandard2.0\TodoList_XF.deps.json
+C:\Users\ossia\source\repos\TodoList_XF\TodoList_XF\TodoList_XF\bin\Debug\netstandard2.0\TodoList_XF.dll
+C:\Users\ossia\source\repos\TodoList_XF\TodoList_XF\TodoList_XF\bin\Debug\netstandard2.0\ref\TodoList_XF.dll
+C:\Users\ossia\source\repos\TodoList_XF\TodoList_XF\TodoList_XF\bin\Debug\netstandard2.0\TodoList_XF.pdb
+C:\Users\ossia\source\repos\TodoList_XF\TodoList_XF\TodoList_XF\obj\Debug\netstandard2.0\TodoList_XF.csproj.AssemblyReference.cache
+C:\Users\ossia\source\repos\TodoList_XF\TodoList_XF\TodoList_XF\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ossia\source\repos\TodoList_XF\TodoList_XF\TodoList_XF\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ossia\source\repos\TodoList_XF\TodoList_XF\TodoList_XF\obj\Debug\netstandard2.0\TodoList_XF.AssemblyInfoInputs.cache
+C:\Users\ossia\source\repos\TodoList_XF\TodoList_XF\TodoList_XF\obj\Debug\netstandard2.0\TodoList_XF.AssemblyInfo.cs
+C:\Users\ossia\source\repos\TodoList_XF\TodoList_XF\TodoList_XF\obj\Debug\netstandard2.0\TodoList_XF.csproj.CoreCompileInputs.cache
+C:\Users\ossia\source\repos\TodoList_XF\TodoList_XF\TodoList_XF\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ossia\source\repos\TodoList_XF\TodoList_XF\TodoList_XF\obj\Debug\netstandard2.0\TodoList_XF.dll
+C:\Users\ossia\source\repos\TodoList_XF\TodoList_XF\TodoList_XF\obj\Debug\netstandard2.0\ref\TodoList_XF.dll
+C:\Users\ossia\source\repos\TodoList_XF\TodoList_XF\TodoList_XF\obj\Debug\netstandard2.0\TodoList_XF.pdb
+C:\Users\ossia\source\repos\TodoList_XF\TodoList_XF\TodoList_XF\obj\Debug\netstandard2.0\Views\TodoListPage.xaml.g.cs
+C:\Users\ossia\source\repos\TodoList_XF\TodoList_XF\TodoList_XF\obj\Debug\netstandard2.0\Views\AddTodoPage.xaml.g.cs
+C:\Users\ossia\source\repos\TodoList_XF\TodoList_XF\TodoList_XF\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TodoList_XF.Views.TodoListPage"
+             Title="Todos">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Clicked="NewTodo_Clicked">
+            <ToolbarItem.Text>
+                +
+            </ToolbarItem.Text>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <ListView x:Name="TodoList" ItemsSource="{Binding Todos}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            
+                            <FlexLayout JustifyContent="SpaceBetween" Padding="10, 0, 10, 0">
+                                
+                                <StackLayout Orientation="Horizontal">
+                                    <CheckBox IsChecked="{Binding IsCompleted}" />
+                                    <Label Text="{Binding TodoText}" VerticalOptions="Center" />
+                                </StackLayout>
+
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding DueDate}" VerticalOptions="Center" />
+                                    <ImageButton Source="trash-can-outline.png" 
+                                            Command="{Binding Path=BindingContext.DeleteTodoCommand, 
+                                            Source={x:Reference TodoList}}"
+                                            CommandParameter="{Binding .}" />
+                                </StackLayout>
+                                
+                            </FlexLayout>
+                            
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

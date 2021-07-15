@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TodoList_XF.MainPage"
+             xmlns:views="clr-namespace:TodoList_XF.Views">
+
+    <TabbedPage.Children>
+        <NavigationPage Title="Todo List" IconImageSource="format-list-bulleted.png">
+            <x:Arguments>
+                <views:TodoListPage />
+            </x:Arguments>
+        </NavigationPage>
+
+        <NavigationPage Title="About" IconImageSource="information-outline.png">
+            <x:Arguments>
+                <views:AboutPage />
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
+
+</TabbedPage>
